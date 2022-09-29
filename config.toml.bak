@@ -1,4 +1,0 @@
-baseURL = 'https://unbiasedgeek.com/'
-languageCode = 'en-us'
-title = 'Unbiased Geek'
-theme = "hugo.386"
