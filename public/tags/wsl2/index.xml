@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSL2 on UNBIASEDGEEK.COM</title>
+    <link>https://unbiasedgeek.com/tags/wsl2/</link>
+    <description>Recent content in WSL2 on UNBIASEDGEEK.COM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Sep 2022 03:12:47 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What to do when WSL2 decides to eat all your RAM.</title>
+      <link>https://unbiasedgeek.com/posts/limiting-wsl2-memory-usage/</link>
+      <pubDate>Thu, 29 Sep 2022 03:12:47 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/limiting-wsl2-memory-usage/</guid>
+      <description>What to do when Windows Linux Subsystem 2 decides to eat all your RAM. I left several WSL terminals running over night and when I returns I noticed my PC (that is a personal computer) was running slow. I checked the memory usuage and a process named vmmem was using nearly 32g. After a bit of research aka typing my problem into Google and clicking on the first LINK, I found out that vmmem is the process that handles the system resources of the virtual machine WSL2 runs in.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>UNBIASEDGEEK.COM</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://unbiasedgeek.com//favicon.ico">
+    <link rel="canonical" href="https://unbiasedgeek.com/">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://unbiasedgeek.com/">UNBIASEDGEEK.COM</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/posts/">
+                                    
+                                    <span>TXT_FILES</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>What to do when WSL2 decides to eat all your RAM. - Thu, Sep 29, 2022</h1>
+    </div>
+    <p class="lead"></p>
+    <h2 id="what-to-do-when-windows-linux-subsystem-2-decides-to-eat-all-your-ram">What to do when Windows Linux Subsystem 2 decides to eat all your RAM.</h2>
+<p>I left several WSL terminals running over night and when I returns I noticed my PC (that is a personal computer) was running slow.  I checked the memory usuage and a process named <strong>vmmem</strong> was using nearly 32g.  After a bit of research aka typing my problem into Google and clicking on the first <a href="https://www.koskila.net/how-to-solve-vmmem-consuming-ungodly-amounts-of-ram-when-running-docker-on-wsl/">LINK</a>, I found out that <strong>vmmem</strong> is the process that handles the system resources of the virtual machine WSL2 runs in.</p>
+<p>I ran <code>wsl --shutdown</code> to free up the memory.  Then created the file <code>%UserProfile%/.wslconfig</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.   This will limit the RAM used in the future.</p>
+<pre tabindex="0"><code>[wsl2]
+memory=8GB
+</code></pre><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Advanced settings configuration in WSL - <a href="https://learn.microsoft.com/en-us/windows/wsl/wsl-config">https://learn.microsoft.com/en-us/windows/wsl/wsl-config</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    <h4><a href="https://unbiasedgeek.com/">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+&copy; 
+
+    
+
+<span id="thisyear">2022</span>
+
+
+</p>
+    <p class="text-center">
+        
+        
+        <a href="https://www.linkedin.com/in/jeff-smith-98755016a/">Linkedin</a> 
+        <a href="https://github.com/archeious">GitHub</a> 
+        
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: true ,
+        onePass: true , 
+        speedFactor: 5 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>
