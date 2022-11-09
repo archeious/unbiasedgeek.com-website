@@ -1,5 +1,5 @@
 +++
-categories = ["hobbies", "Magic the Gathering"]
+categories = ["hobbies"]
 date = 2022-09-29T02:43:47Z
 title = "Magic the Gathering"
 tags = [

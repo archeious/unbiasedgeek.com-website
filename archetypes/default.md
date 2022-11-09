@@ -1,6 +1,8 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
++++
+categories = []
+date = {{ .Date }}
+draft = true
+tags = []
+title = "{{ replace .Name "-" " " | title }}"
++++
 

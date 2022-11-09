@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D Printing on UNBIASEDGEEK.COM</title>
+    <link>https://unbiasedgeek.com/tags/3d-printing/</link>
+    <description>Recent content in 3D Printing on UNBIASEDGEEK.COM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Oct 2022 18:08:33 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Back Into 3d Printing</title>
+      <link>https://unbiasedgeek.com/posts/getting-back-into-3d-printing/</link>
+      <pubDate>Thu, 06 Oct 2022 18:08:33 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/getting-back-into-3d-printing/</guid>
+      <description>I am firing up the ole toxis resin 3D printer. To print some magic tokens I found on line.</description>
+    </item>
+    
+  </channel>
+</rss>

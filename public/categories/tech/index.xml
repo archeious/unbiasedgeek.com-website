@@ -6,7 +6,65 @@
     <description>Recent content in tech on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Sep 2022 03:12:47 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 19:33:13 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10gbs Internets Is It Too Much</title>
+      <link>https://unbiasedgeek.com/posts/10gbs-internets-is-it-too-much/</link>
+      <pubDate>Tue, 08 Nov 2022 19:33:13 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/10gbs-internets-is-it-too-much/</guid>
+      <description>I found out recently that Utopia fired up the fiber in my neighborhood and I can get fiber internet. While a lot of people complain about Comcast my experience has been midling, not terrible and not great. I was fine up until I had a problem and had to tal to support, then it a was mightmarish.
+So the question is if 10 gigabit/sec internet is too much bandwdith. I mean it isn&amp;rsquo;t really a question.</description>
+    </item>
+    
+    <item>
+      <title>Creating Vm Template in Proxmox</title>
+      <link>https://unbiasedgeek.com/posts/creating-vm-template-in-proxmox/</link>
+      <pubDate>Tue, 25 Oct 2022 23:37:32 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/creating-vm-template-in-proxmox/</guid>
+      <description>Download image from https://cloud-images.ubuntu.com/minimal/releases/jammy/release/ubuntu-22.04-minimal-cloudimg-amd64.img attach VGA console qm set $VM_ID --serial0 socker --vga serial0 rename the image to qcow2 e.g., mv ubuntu-22.04-minimal-cloudimg-amd64.img ubuntu-22.04-cloud.qcow2 resize the image qemu-img resize ubuntu-22.04-cloud.qcow2 30G import image into proxmox qm importdisk $VM_ID ubuntu-22.04-cloud.qcow2 local-lvm Heavy Inspiration drawn from this blog/video</description>
+    </item>
+    
+    <item>
+      <title>New Servers New Cluster</title>
+      <link>https://unbiasedgeek.com/posts/new-servers-new-cluster/</link>
+      <pubDate>Mon, 17 Oct 2022 22:47:21 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/new-servers-new-cluster/</guid>
+      <description>Work is getting rid of a bunch of servers. They had a 1 server per person order. I picked up a Dell R730xd for storage.
+If they do not sell out I should be able to pick up more. I am hoping to replace all the R410s with R420s and get 3 R630s for a proper proxmox cluster.</description>
+    </item>
+    
+    <item>
+      <title>Too Many Languages</title>
+      <link>https://unbiasedgeek.com/posts/too-many-languages/</link>
+      <pubDate>Wed, 05 Oct 2022 19:06:53 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/too-many-languages/</guid>
+      <description>I have recently taken it upon myselft to learn Rust using Exercism.
+It has been difficult as I already develop in Python (main language for my job), ruby (secondary, but probably actually primary language for my job), bash, Go, and C++. The languages all seem to blend into each other. Some of the langauges are used professionally and some as a hobby.</description>
+    </item>
+    
+    <item>
+      <title>Setting up the PostgreSQL database for the Magic the Gathering Project</title>
+      <link>https://unbiasedgeek.com/posts/psql-gorm-mtg-project/</link>
+      <pubDate>Mon, 03 Oct 2022 20:24:49 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/psql-gorm-mtg-project/</guid>
+      <description>I decided to go with GORM and the way to manage the databaseschema for the MtG Project I am starting. On that note I am starting a MtG Data Science Project.</description>
+    </item>
+    
+    <item>
+      <title>What to do when Ceph is taking its bloody time recovering.</title>
+      <link>https://unbiasedgeek.com/posts/ceph-recovery-speed/</link>
+      <pubDate>Thu, 29 Sep 2022 04:48:36 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/ceph-recovery-speed/</guid>
+      <description>What do do when Ceph is taking its bloody time recovering. I am rebuilding my main hyperconverged cluster. Part of that is evacuating all the data from the old nodes. I took the OSD out of the cluster with ceph out osd.XX and the cluster started rebalancing. Unfortunately it taking forever, luckily I know how to fix it.
+If we looks at the recovery settings, we will notice the max backfills and the max active are low.</description>
+    </item>
+    
     <item>
       <title>What to do when WSL2 decides to eat all your RAM.</title>
       <link>https://unbiasedgeek.com/posts/limiting-wsl2-memory-usage/</link>

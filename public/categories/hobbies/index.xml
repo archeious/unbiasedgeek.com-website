@@ -6,7 +6,26 @@
     <description>Recent content in hobbies on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Sep 2022 02:43:47 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 18:08:33 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Back Into 3d Printing</title>
+      <link>https://unbiasedgeek.com/posts/getting-back-into-3d-printing/</link>
+      <pubDate>Thu, 06 Oct 2022 18:08:33 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/getting-back-into-3d-printing/</guid>
+      <description>I am firing up the ole toxis resin 3D printer. To print some magic tokens I found on line.</description>
+    </item>
+    
+    <item>
+      <title>Too Many Languages</title>
+      <link>https://unbiasedgeek.com/posts/too-many-languages/</link>
+      <pubDate>Wed, 05 Oct 2022 19:06:53 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/too-many-languages/</guid>
+      <description>I have recently taken it upon myselft to learn Rust using Exercism.
+It has been difficult as I already develop in Python (main language for my job), ruby (secondary, but probably actually primary language for my job), bash, Go, and C++. The languages all seem to blend into each other. Some of the langauges are used professionally and some as a hobby.</description>
+    </item>
+    
     <item>
       <title>Magic the Gathering</title>
       <link>https://unbiasedgeek.com/posts/magic-the-gathering/</link>
