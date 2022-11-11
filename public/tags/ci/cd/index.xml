@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI/CD on UNBIASEDGEEK.COM</title>
+    <link>https://unbiasedgeek.com/tags/ci/cd/</link>
+    <description>Recent content in CI/CD on UNBIASEDGEEK.COM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://unbiasedgeek.com/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gitops With Github Actions</title>
+      <link>https://unbiasedgeek.com/posts/gitops-with-github-actions/</link>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/gitops-with-github-actions/</guid>
+      <description>Getting Started with a simple GitHub actions workflow. The work flow will build an container image and publish it to dockerhub. I will need to setup a different flow to watch for updates to the container registry to redeploy in the cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

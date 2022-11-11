@@ -6,7 +6,16 @@
     <description>Recent content on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Nov 2022 01:24:14 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 00:39:15 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gitops With Github Actions</title>
+      <link>https://unbiasedgeek.com/posts/gitops-with-github-actions/</link>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/gitops-with-github-actions/</guid>
+      <description>Getting Started with a simple GitHub actions workflow. The work flow will build an container image and publish it to dockerhub. I will need to setup a different flow to watch for updates to the container registry to redeploy in the cluster.</description>
+    </item>
+    
     <item>
       <title>Kubernetes Cluster</title>
       <link>https://unbiasedgeek.com/posts/kubernetes-cluster/</link>

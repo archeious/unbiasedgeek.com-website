@@ -3,16 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unbiasedgeek.com/categories/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/categories/cloud/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/tags/docker/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/tags/github/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/tags/gitops/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/posts/gitops-with-github-actions/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/posts/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/tags/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/categories/tech/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/tags/unbiasedgeek/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/</loc>
+    <lastmod>2022-11-11T00:39:15+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/categories/hobbies/</loc>
     <lastmod>2022-11-10T01:24:14+00:00</lastmod>
@@ -21,18 +42,6 @@
     <lastmod>2022-11-10T01:24:14+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/posts/kubernetes-cluster/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
-  </url><url>
-    <loc>https://unbiasedgeek.com/posts/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
-  </url><url>
-    <loc>https://unbiasedgeek.com/tags/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
-  </url><url>
-    <loc>https://unbiasedgeek.com/categories/tech/</loc>
-    <lastmod>2022-11-10T01:24:14+00:00</lastmod>
-  </url><url>
-    <loc>https://unbiasedgeek.com/</loc>
     <lastmod>2022-11-10T01:24:14+00:00</lastmod>
   </url><url>
     <loc>https://unbiasedgeek.com/tags/10g/</loc>
@@ -160,5 +169,7 @@
   </url><url>
     <loc>https://unbiasedgeek.com/posts/my-first-post/</loc>
     <lastmod>2022-09-29T01:38:12+00:00</lastmod>
+  </url><url>
+    <loc>https://unbiasedgeek.com/tags/ci/cd/</loc>
   </url>
 </urlset>

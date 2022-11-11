@@ -6,22 +6,40 @@
     <description>Recent content in Tags on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Nov 2022 01:24:14 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 00:39:15 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
       <link>https://unbiasedgeek.com/tags/docker/</link>
-      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
       
       <guid>https://unbiasedgeek.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>github</title>
+      <link>https://unbiasedgeek.com/tags/github/</link>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GitOps</title>
       <link>https://unbiasedgeek.com/tags/gitops/</link>
-      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
       
       <guid>https://unbiasedgeek.com/tags/gitops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unbiasedgeek</title>
+      <link>https://unbiasedgeek.com/tags/unbiasedgeek/</link>
+      <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/tags/unbiasedgeek/</guid>
       <description></description>
     </item>
     
@@ -301,6 +319,15 @@
       <pubDate>Thu, 29 Sep 2022 02:43:47 +0000</pubDate>
       
       <guid>https://unbiasedgeek.com/tags/deck-ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://unbiasedgeek.com/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/tags/ci/cd/</guid>
       <description></description>
     </item>
     
