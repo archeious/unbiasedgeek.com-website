@@ -13,7 +13,8 @@
       <pubDate>Fri, 11 Nov 2022 00:39:15 +0000</pubDate>
       
       <guid>https://unbiasedgeek.com/posts/gitops-with-github-actions/</guid>
-      <description>Getting Started with a simple GitHub actions workflow. The work flow will build an container image and publish it to dockerhub. I will need to setup a different flow to watch for updates to the container registry to redeploy in the cluster.</description>
+      <description>Getting Started with a simple GitHub actions workflow. The work flow will build an container image and publish it to dockerhub. I will need to setup a different flow to watch for updates to the container registry to redeploy in the cluster.
+Note: It did not initially work because the &amp;ldquo;path&amp;rdquo; was for the public folder. The path should have been recursive i.e., public/**</description>
     </item>
     
   </channel>

@@ -53,6 +53,8 @@
     <h1 id="getting-started-with-a-simple-github-actions-workflow">Getting Started with a simple GitHub actions workflow.</h1>
 <p>The work flow will build an container image and publish it to dockerhub.  I will need to setup a different flow to watch
 for updates to the container registry to redeploy in the cluster.</p>
+<p>Note: It did not initially work because the &ldquo;path&rdquo; was for the <code>public</code> folder.  The path should have been recursive
+i.e., <code>public/**</code></p>
 
     <h4><a href="https://unbiasedgeek.com/">Back to Home</a></h4>
 </div>
