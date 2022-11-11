@@ -3,7 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches: [ "main" ]
-    paths: [ "public" ]
+    paths: [ "public/**" ]
     
 env:
   VERSION: ${{ secrets.VERSION_PRIMARY }}.${{ github.run_number }}
