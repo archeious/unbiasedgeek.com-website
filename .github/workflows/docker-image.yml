@@ -24,6 +24,6 @@ jobs:
       - name: Push the tagged Docker image
         run: docker push archeious/unbiasedgeek-com:${{env.VERSION}}
       - name: Build the latest Docker image
-        run: docker build . --file Dockerfile --tag archeious/unbiasedgeek:latest
+        run: docker build . --file Dockerfile --tag archeious/unbiasedgeek-com:latest
       - name: Push the latest Docker image
         run: docker push archeious/unbiasedgeek:latest
