@@ -1,0 +1,20 @@
+[home]
+other = "Home"
+
+[posts]
+other = "TXTs"
+
+[postslist]
+other = "txt/zines"
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[backtohome]
+other = "Back to Home"
+
+[builton]
+other = "Built on"
