@@ -20,9 +20,9 @@ jobs:
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
       - name: Build the tagged Docker image
-        run: docker build . --file Dockerfile --tag archeious/unbiasedgeek-com:${{VERSION}}
+        run: docker build . --file Dockerfile --tag archeious/unbiasedgeek-com:${{env.VERSION}}
       - name: Push the tagged Docker image
-        run: docker push archeious/unbiasedgeek-com:${{VERSION}}
+        run: docker push archeious/unbiasedgeek-com:${{env.VERSION}}
       - name: Build the latest Docker image
         run: docker build . --file Dockerfile --tag archeious/unbiasedgeek:latest
       - name: Push the latest Docker image
