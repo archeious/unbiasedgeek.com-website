@@ -6,7 +6,17 @@
     <description>Recent content in hobbies on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Oct 2022 18:08:33 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 01:24:14 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Cluster</title>
+      <link>https://unbiasedgeek.com/posts/kubernetes-cluster/</link>
+      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/kubernetes-cluster/</guid>
+      <description>Setting up an &amp;ldquo;Enterprise&amp;rdquo; grade Kubernetes cluster for personal use. First off, why would any one want to do such a thing. My simple answer to that is, because I can. The longer more involved answer is that I want to keep up with current trends without having to worry about causing downtime at work.
+Many people have hobbies. It can be fly fishing, crotcheting, rock climbing; mine is building and maintaining enterprise grade tech solutions at hone.</description>
+    </item>
+    
     <item>
       <title>Getting Back Into 3d Printing</title>
       <link>https://unbiasedgeek.com/posts/getting-back-into-3d-printing/</link>

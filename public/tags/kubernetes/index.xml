@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubernetes on UNBIASEDGEEK.COM</title>
+    <link>https://unbiasedgeek.com/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on UNBIASEDGEEK.COM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Nov 2022 01:24:14 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Cluster</title>
+      <link>https://unbiasedgeek.com/posts/kubernetes-cluster/</link>
+      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/posts/kubernetes-cluster/</guid>
+      <description>Setting up an &amp;ldquo;Enterprise&amp;rdquo; grade Kubernetes cluster for personal use. First off, why would any one want to do such a thing. My simple answer to that is, because I can. The longer more involved answer is that I want to keep up with current trends without having to worry about causing downtime at work.
+Many people have hobbies. It can be fly fishing, crotcheting, rock climbing; mine is building and maintaining enterprise grade tech solutions at hone.</description>
+    </item>
+    
+  </channel>
+</rss>

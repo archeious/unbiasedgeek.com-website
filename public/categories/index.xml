@@ -6,22 +6,31 @@
     <description>Recent content in Categories on UNBIASEDGEEK.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Nov 2022 19:33:13 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 01:24:14 +0000</lastBuildDate><atom:link href="https://unbiasedgeek.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>tech</title>
-      <link>https://unbiasedgeek.com/categories/tech/</link>
-      <pubDate>Tue, 08 Nov 2022 19:33:13 +0000</pubDate>
+      <title>cloud</title>
+      <link>https://unbiasedgeek.com/categories/cloud/</link>
+      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
       
-      <guid>https://unbiasedgeek.com/categories/tech/</guid>
+      <guid>https://unbiasedgeek.com/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hobbies</title>
       <link>https://unbiasedgeek.com/categories/hobbies/</link>
-      <pubDate>Thu, 06 Oct 2022 18:08:33 +0000</pubDate>
+      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
       
       <guid>https://unbiasedgeek.com/categories/hobbies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://unbiasedgeek.com/categories/tech/</link>
+      <pubDate>Thu, 10 Nov 2022 01:24:14 +0000</pubDate>
+      
+      <guid>https://unbiasedgeek.com/categories/tech/</guid>
       <description></description>
     </item>
     
