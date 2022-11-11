@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
     
 env:
-  VERSION: ${{ secrets.DOCKERHUB_USERNAME }}.${{ github.run_number }}
+  VERSION: ${{ secrets.VERSION_PRIMARY }}.${{ github.run_number }}
 
 jobs:
 
