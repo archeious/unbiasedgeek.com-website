@@ -3,7 +3,7 @@ categories = [
     "website",
 ]
 date = 2024-05-02T19:08:56Z
-draft = true
+draft = false
 tags = [
     "accountability",
     "consistency"
