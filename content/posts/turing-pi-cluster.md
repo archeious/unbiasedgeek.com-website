@@ -4,7 +4,7 @@ categories = [
     "tech"
 ]
 date = 2024-05-02T19:20:56Z
-draft = true
+draft = false
 tags = [
     "turing-pi-2",
     "distributed",
